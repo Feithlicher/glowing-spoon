@@ -49,3 +49,25 @@
   box-shadow: 0 0 0 2px #3498db;
   transform: scale(1.02);
 }
+
+
+
+
+
+
+/* New styles for the Submit button */
+.submitButton {
+  margin-top: 15px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #D6E2E8; /* A color slightly darker than the adjusted promptContainer's background */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: #333;
+}
+
+.submitButton:hover {
+  background-color: #C4D2D9; /* Darker shade for hover effect */
+}
